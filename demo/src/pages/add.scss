@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0px auto;
+}
+
+.crud-section {
+    margin: 40px;
+
+    .container {
+        .row {
+            .main {
+                .header {
+                    h1 {
+                        color: #da4076;
+                        text-align: center;
+                        padding: 20px 0;
+                    }
+                }
+
+                .add-data {
+                    .form {
+                        form {
+                            input {
+                                width: 350px;
+                                height: 30px;
+                                padding: 10px;
+                                outline: none;
+                            }
+
+                            button {
+                                padding: 6px 10px;
+                                color: white;
+                                background-color: #da4076;
+                                border: none;
+                                border-radius: 5px;
+                                margin: 0px 10px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.listData {
+    .container {
+        .list {
+            background-color: rgba(128, 128, 128, 0.176);
+            width: 450px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+
+            li {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

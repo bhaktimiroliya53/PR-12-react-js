@@ -27,7 +27,7 @@ function From() {
             let res = data.docs.map((val) => ((
                 {...val.data(), id: val.id}
             )
-            ));
+            )); 
             console.log(res);
             setrecord(res)
         } catch (err) {
@@ -96,6 +96,6 @@ function From() {
             </center>
         </>
     )
-}
+} 
 
 export default From
